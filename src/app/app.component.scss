@@ -1,0 +1,21 @@
+:host {
+  @apply flex;
+  @apply flex-col;
+  @apply min-h-screen;
+}
+
+section {
+  @apply flex-grow;
+}
+
+footer {
+  @apply bg-blue-50;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.red {
+  color: tomato;
+}

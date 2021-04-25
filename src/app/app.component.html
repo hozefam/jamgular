@@ -1,5 +1,24 @@
-<header>Jamgular</header>
+<header>
+  <mat-toolbar color="primary">
+    <button
+      mat-icon-button
+      class="example-icon"
+      aria-label="Example icon-button with menu icon"
+    >
+      <mat-icon>menu</mat-icon>
+    </button>
+    <span>Hozefa</span>
+    <span class="example-spacer"></span>
+    <button
+      mat-icon-button
+      class="example-icon favorite-icon"
+      aria-label="Example icon-button with heart icon"
+    >
+      <mat-icon class="red">favorite</mat-icon>
+    </button>
+  </mat-toolbar>
+</header>
 <section>
   <router-outlet></router-outlet>
 </section>
-<footer>This is a footer</footer>
+<footer class="py-12">This is a footer</footer>
